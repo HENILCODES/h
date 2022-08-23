@@ -1,0 +1,82 @@
+.projects {
+    text-align: center;
+}    
+.top{
+    width: 300px;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(107, 9, 9);
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    padding: 3px;
+    padding: 10px 10px;
+    color: #160952;
+    box-shadow: 0 0 20px 0 rgb(12, 12, 12);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Pdate {
+    color: rgb(2, 2, 61);
+    text-shadow: 0 0 10px #05afda;
+    letter-spacing: 2px;
+    display: none;
+}
+@media (max-width:700px){
+    .Pbutton{
+        font-size: 1.2rem;
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 18px 12px;
+    }
+    .Pbutton i{
+        display: none;
+    }
+    .Pdate{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width:700px){
+    .Pbutton{
+        font-size: 22px;
+        width: 60%;
+        padding: 20px 10px 15px 110px;
+    }
+    .Pdate{
+        text-align: right;
+        font-size: 20px;
+    }
+}
+.Pbutton {
+    text-align: left;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #f1f5f0;
+    border: 2px ridge rgb(193, 236, 37);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    letter-spacing: 2;
+    background: #f09433;
+    background: linear-gradient(20deg, green 83%, orangered 15%);
+    box-shadow: 0 0 10px 0 rgb(21, 166, 192);
+    background-color: rgb(65, 34, 241);
+    transition: .7s;
+    margin-top: 35px;
+}
+
+.Pbutton:hover {
+    color: rgb(50, 0, 83);
+    font-weight: bold;
+    background: linear-gradient(20deg, rgb(59, 250, 107)67%, #c92508 15%);
+    box-shadow: 0 0 20px 0 rgb(12, 12, 12);
+    font-size: 23px;
+    padding-left: 15px;
+}
+
+.Pbutton:active {
+    background: #ca322c;
+    color: rgb(247, 246, 245);
+}
