@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/h/static/css/main.8c64faba.css",
+    "main.js": "/h/static/js/main.0c7b6785.js",
+    "static/media/HenilCode.ico": "/h/static/media/HenilCode.f37250b3ee010028d74c.ico",
+    "static/media/Henil.ico": "/h/static/media/Henil.cf00f3589441d9cdb4df.ico",
+    "static/media/backimg.jpg": "/h/static/media/backimg.c2009610e9f172bc08e2.jpg",
+    "index.html": "/h/index.html",
+    "main.8c64faba.css.map": "/h/static/css/main.8c64faba.css.map",
+    "main.0c7b6785.js.map": "/h/static/js/main.0c7b6785.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c64faba.css",
+    "static/js/main.0c7b6785.js"
+  ]
+}
