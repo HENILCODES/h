@@ -1,29 +1,19 @@
-import React, { useEffect, useState } from "react";
-export default function App() {
-  const [count, setCount] = useState(5);
-  const [color, setcolor] = useState("");
+import React, { useState } from 'react'
+// import Auth from './Aut';
+import globls from './child'
 
-  useEffect(() => {
-    // setcolor("red");
-    setInterval(() => {
-        let d = ["green","blue","#9306f7"];
-
-        let r = Math.floor(Math.random()*3);
-        setCount(()=>  r );
-        setcolor((color)=> d[r])
-    },5000);
-  }, [color,count]);
-  return (
-    <>
-      <h1 className={`colso asj aas ${color}`} style={{color:color}}>Hello {count} </h1>
-
-      <button
-        onClick={() => {
-          setCount(count + 1);
-        }}
-      >
-        Click
-      </button>
-    </>
-  );
+export default function App(){
+  const [autst,setAut] = useState(false);
+  const login = ()=>{
+    autst?setAut(false):setAut(true);
+  }
+  console.log(console);
+  console.timeStamp();
+  return(
+    <globls.Provider value={{status:autst,login:login}}>
+      
+      <h1>App js</h1>
+      {/* <Auth/>  */}
+    </globls.Provider>
+  )
 }
