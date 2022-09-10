@@ -1,19 +1,14 @@
-import React, { useState } from 'react'
-// import Auth from './Aut';
-import globls from './child'
+import React, { Component } from 'react'
+import Navbar from './components/Navbar'
 
-export default function App(){
-  const [autst,setAut] = useState(false);
-  const login = ()=>{
-    autst?setAut(false):setAut(true);
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar/>
+      </div>
+    )
   }
-  console.log(console);
-  console.timeStamp();
-  return(
-    <globls.Provider value={{status:autst,login:login}}>
-      
-      <h1>App js</h1>
-      {/* <Auth/>  */}
-    </globls.Provider>
-  )
 }
+
+export default App
