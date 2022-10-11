@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
+        <Route path="/h" element={<HomePage/>} />
         <Route path="Html" element={<HtmlPage/>} />
         <Route path="About" element={<AboutPage/>} />
         <Route path="Project" element={<ProjectPage/>} />
