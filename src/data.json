@@ -1,17 +1,668 @@
 [{
-  "username": "john",
-  "firstName": "John",
-  "lastName": "Doe",
-  "gender": "Male",
-  "profileURL": "img/male.png",
-  "email": "john.doe@example.com"
+  "_id": {
+    "$oid": "62cc1a9865437e4064b3be82"
+  },
+  "SPID": 2.019039816E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "DUBEY PRASHANT DHIRAJ",
+  "ACADEMIC_BATCH": "B.C.A 2019-22",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "RESULT": "PASS",
+  "SGPA": 7.52,
+  "YGPA": 7.11,
+  "CLASS": "FIRST DIST",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 76.0,
+    "IOT": 77.0,
+    "JAVA": 61.0,
+    "VBNET": 64.0,
+    "WEB_DES_2": 91.0,
+    "PRACT": 179.0
+  },
+  "EXAM_TOTAL": 548.0
 },
 {
-  "username": "jane",
-  "firstName": "Jane",
-  "lastName": "Doe",
-  "gender": "Female",
-  "profileURL": "img/female.png",
-  "email": "jane.doe@example.com"
+  "_id": {
+    "$oid": "62cc362d06ae98769932a633"
+  },
+  "SPID": 2.020025696E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "BHANUSHALI YASH HARESH",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "RESULT": "PASS",
+  "SGPA": 6.48,
+  "YGPA": 6.41,
+  "CLASS": "FIRST",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 57.0,
+    "IOT": 52.0,
+    "JAVA": 57.0,
+    "VBNET": 62.0,
+    "WEB_DES_2": 71.0,
+    "PRACT": 142.0
+  },
+  "EXAM_TOTAL": 441.0
+},
+{
+  "_id": {
+    "$oid": "62cc383406ae98769932a634"
+  },
+  "SPID": 2.020025695E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SURYAVNSHI SHIVAM VISHAV MOHAN",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "RESULT": "PASS",
+  "SGPA": 6.13,
+  "YGPA": 6.33,
+  "CLASS": "FIRST",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 51.0,
+    "IOT": 53.0,
+    "JAVA": 47.0,
+    "VBNET": 51.0,
+    "WEB_DES_2": 65.0,
+    "PRACT": 155.0
+  },
+  "EXAM_TOTAL": 422.0
+},
+{
+  "_id": {
+    "$oid": "62ccead061ac31f2e97f7f6c"
+  },
+  "SPID": 2.020025697E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "DESAI JASH KETANKUMAR",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "RESULT": "PASS",
+  "SGPA": 7.04,
+  "YGPA": 6.5,
+  "CLASS": "FIRST",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 66.0,
+    "IOT": 71.0,
+    "JAVA": 56.0,
+    "VBNET": 59.0,
+    "WEB_DES_2": 72.0,
+    "PRACT": 143.0
+  },
+  "EXAM_TOTAL": 467.0
+},
+{
+  "_id": {
+    "$oid": "62ccee4a61ac31f2e97f7f6e"
+  },
+  "SPID": 2.020025699E+09,
+  "GENDER": "F",
+  "STUDENT_NAME": "KAHAR DIXITA NILESHBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 93.0,
+    "IOT": 95.0,
+    "JAVA": 85.0,
+    "VBNET": 78.0,
+    "WEB_DES_2": 98.0,
+    "PRACT": 188.0
+  },
+  "EXAM_TOTAL": 637.0,
+  "RESULT": "PASS",
+  "SGPA": 9.48,
+  "YGPA": 8.7,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62ccf14eb733bbaf180c8a78"
+  },
+  "SPID": 2.020025698E+09,
+  "GENDER": "F",
+  "STUDENT_NAME": "DHODI DHRUTIBEN GILABBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_EXT": {
+    "INFO_SYS": 79.0,
+    "IOT": 74.0,
+    "JAVA": 66.0,
+    "VBNET": 73.0,
+    "WEB_DES_2": 86.0,
+    "PRACT": 172.0
+  },
+  "TOTAL": 550.0,
+  "RESULT": "PASS",
+  "SGPA": 7.78,
+  "YGPA": 7.22,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62ccf96c6c4e692412b73fe2"
+  },
+  "SPID": 2.0200257E+09,
+  "GENDER": "F",
+  "STUDENT_NAME": "KASAMJI FOWZA FIROZ",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 88.0,
+    "IOT": 91.0,
+    "JAVA": 82.0,
+    "VBNET": 77.0,
+    "WEB_DES_2": 98.0,
+    "PRACT": 188.0
+  },
+  "EXAM_TOTAL": 624.0,
+  "RESULT": "PASS",
+  "SGPA": 8.91,
+  "YGPA": 8.28,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62ccfa6a6c4e692412b73fe3"
+  },
+  "SPID": 2.020025701E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "KHATRI ARYAN MANAHARBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 76.0,
+    "IOT": 71.0,
+    "JAVA": 77.0,
+    "VBNET": 65.0,
+    "WEB_DES_2": 85.0,
+    "PRACT": 150.0
+  },
+  "EXAM_TOTAL": 524.0,
+  "RESULT": "PASS",
+  "SGPA": 8.09,
+  "YGPA": 7.09,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62ccfc396c4e692412b73fe4"
+  },
+  "SPID": 2.020025703E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PADHY MAHESHKUMAR PRADYUMNA",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 73.0,
+    "IOT": 65.0,
+    "JAVA": 63.0,
+    "VBNET": 64.0,
+    "WEB_DES_2": 81.0,
+    "PRACT": 154.0
+  },
+  "EXAM_TOTAL": 500.0,
+  "RESULT": "PASS",
+  "SGPA": 7.35,
+  "YGPA": 6.96,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62ccfdcd6c4e692412b73fe5"
+  },
+  "SPID": 2.020025705E+09,
+  "GENDER": "F",
+  "STUDENT_NAME": "PATEL ANISHA GHANSYAMBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 78.0,
+    "IOT": 75.0,
+    "JAVA": 77.0,
+    "VBNET": 74.0,
+    "WEB_DES_2": 81.0,
+    "PRACT": 186.0
+  },
+  "EXAM_TOTAL": 571.0,
+  "RESULT": "PASS",
+  "SGPA": 8.04,
+  "YGPA": 7.11,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62ccfe936c4e692412b73fe6"
+  },
+  "SPID": 2.020025706E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PATEL HARSH NARENDRA",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 65.0,
+    "IOT": 73.0,
+    "JAVA": 53.0,
+    "VBNET": 63.0,
+    "WEB_DES_2": 74.0,
+    "PRACT": 169.0
+  },
+  "EXAM_TOTAL": 497.0,
+  "RESULT": "PASS",
+  "SGPA": 7.3,
+  "YGPA": 6.41,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62ccff456c4e692412b73fe7"
+  },
+  "SPID": 2.020025707E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PATEL MANAN MUKESHBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 55.0,
+    "IOT": 60.0,
+    "JAVA": 58.0,
+    "VBNET": 59.0,
+    "WEB_DES_2": 74.0,
+    "PRACT": 149.0
+  },
+  "EXAM_TOTAL": 455.0,
+  "RESULT": "PASS",
+  "SGPA": 6.78,
+  "YGPA": 6.39,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62ccffa46c4e692412b73fe8"
+  },
+  "SPID": 2.020025708E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PATEL PRATIK SHANKARBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 69.0,
+    "IOT": 77.0,
+    "JAVA": 64.0,
+    "VBNET": 63.0,
+    "WEB_DES_2": 67.0,
+    "PRACT": 170.0
+  },
+  "EXAM_TOTAL": 510.0,
+  "RESULT": "PASS",
+  "SGPA": 7.48,
+  "YGPA": 6.7,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd000c6c4e692412b73fe9"
+  },
+  "SPID": 2.020025709E+09,
+  "GENDER": "F",
+  "STUDENT_NAME": "PATHAK PRATIKSHA RAMAKANT",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 75.0,
+    "IOT": 77.0,
+    "JAVA": 73.0,
+    "VBNET": 62.0,
+    "WEB_DES_2": 91.0,
+    "PRACT": 186.0
+  },
+  "EXAM_TOTAL": 564.0,
+  "RESULT": "PASS",
+  "SGPA": 8.13,
+  "YGPA": 7.48,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62cd01a46c4e692412b73fea"
+  },
+  "SPID": 2.02002571E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PATIL HARSHAL GANESH",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 56.0,
+    "IOT": 64.0,
+    "JAVA": 58.0,
+    "VBNET": 61.0,
+    "WEB_DES_2": 71.0,
+    "PRACT": 165.0
+  },
+  "EXAM_TOTAL": 475.0,
+  "RESULT": "PASS",
+  "SGPA": 6.43,
+  "YGPA": 6.37,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd028f6c4e692412b73feb"
+  },
+  "SPID": 2.020025711E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PIPALIYA RAJ SHANTIBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 58.0,
+    "IOT": 66.0,
+    "JAVA": 68.0,
+    "VBNET": 61.0,
+    "WEB_DES_2": 76.0,
+    "PRACT": 186.0
+  },
+  "EXAM_TOTAL": 515.0,
+  "RESULT": "PASS",
+  "SGPA": 7.3,
+  "YGPA": 6.67,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd03966c4e692412b73fec"
+  },
+  "SPID": 2.020025712E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PRAJAPATI HARSHKUMAR SURESHBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 69.0,
+    "IOT": 66.0,
+    "JAVA": 60.0,
+    "VBNET": 63.0,
+    "WEB_DES_2": 85.0,
+    "PRACT": 185.0
+  },
+  "EXAM_TOTAL": 528.0,
+  "RESULT": "PASS",
+  "SGPA": 7.65,
+  "YGPA": 7.02,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62cd03e06c4e692412b73fed"
+  },
+  "SPID": 2.020025713E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "PRAJAPATI HENIL VINODBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 70.0,
+    "IOT": 88.0,
+    "JAVA": 84.0,
+    "VBNET": 77.0,
+    "WEB_DES_2": 84.0,
+    "PRACT": 194.0
+  },
+  "EXAM_TOTAL": 597.0,
+  "RESULT": "PASS",
+  "SGPA": 8.39,
+  "YGPA": 7.96,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62cd047b6c4e692412b73fee"
+  },
+  "SPID": 2.020025715E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SEVAK PREET RAMESH",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 67.0,
+    "IOT": 71.0,
+    "JAVA": 47.0,
+    "VBNET": 51.0,
+    "WEB_DES_2": 61.0,
+    "PRACT": 143.0
+  },
+  "EXAM_TOTAL": 440.0,
+  "RESULT": "PASS",
+  "SGPA": 6.7,
+  "YGPA": 6.52,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd04da6c4e692412b73fef"
+  },
+  "SPID": 2.020025716E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SHARMA TANAY MANOJKUMAR",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 73.0,
+    "IOT": 81.0,
+    "JAVA": 59.0,
+    "VBNET": 56.0,
+    "WEB_DES_2": 66.0,
+    "PRACT": 143.0
+  },
+  "EXAM_TOTAL": 478.0,
+  "RESULT": "PASS",
+  "SGPA": 7.26,
+  "YGPA": 6.65,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd062b6c4e692412b73ff0"
+  },
+  "SPID": 2.020025718E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SINGH GNYANU JAYPRAKASH",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 74.0,
+    "IOT": 73.0,
+    "JAVA": 65.0,
+    "VBNET": 53.0,
+    "WEB_DES_2": 79.0,
+    "PRACT": 172.0
+  },
+  "EXAM_TOTAL": 516.0,
+  "RESULT": "PASS",
+  "SGPA": 7.17,
+  "YGPA": 6.85,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd071f6c4e692412b73ff1"
+  },
+  "SPID": 2.02002572E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SINGH SHUBHAM JITENDRA",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 57.0,
+    "IOT": 61.0,
+    "JAVA": 58.0,
+    "VBNET": 50.0,
+    "WEB_DES_2": 73.0,
+    "PRACT": 145.0
+  },
+  "EXAM_TOTAL": 444.0,
+  "RESULT": "PASS",
+  "SGPA": 6.7,
+  "YGPA": 6.37,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0c0e6c4e692412b73ff2"
+  },
+  "SPID": 2.020025721E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SINGH SURAJ MAHESH",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 63.0,
+    "IOT": 74.0,
+    "JAVA": 73.0,
+    "VBNET": 64.0,
+    "WEB_DES_2": 70.0,
+    "PRACT": 170.0
+  },
+  "EXAM_TOTAL": 514.0,
+  "RESULT": "PASS",
+  "SGPA": 7.83,
+  "YGPA": 7.2,
+  "CLASS": "FIRST DIST"
+},
+{
+  "_id": {
+    "$oid": "62cd0c6e6c4e692412b73ff3"
+  },
+  "SPID": 2.020025722E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "SOLANKI MIHIR KISHORBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 57.0,
+    "IOT": 74.0,
+    "JAVA": 58.0,
+    "VBNET": 64.0,
+    "WEB_DES_2": 63.0,
+    "PRACT": 143.0
+  },
+  "EXAM_TOTAL": 459.0,
+  "RESULT": "PASS",
+  "SGPA": 7.13,
+  "YGPA": 6.14,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0cec6c4e692412b73ff4"
+  },
+  "SPID": 2.020025723E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "YADAV AKASHLAL AJAY",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 51.0,
+    "IOT": 70.0,
+    "JAVA": 54.0,
+    "VBNET": 52.0,
+    "WEB_DES_2": 65.0,
+    "PRACT": 168.0
+  },
+  "EXAM_TOTAL": 460.0,
+  "RESULT": "PASS",
+  "SGPA": 6.48,
+  "YGPA": 6.0,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0d576c4e692412b73ff5"
+  },
+  "SPID": 2.020025E+10,
+  "GENDER": "M",
+  "STUDENT_NAME": "YAGNIK SATYAMKUMAR",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 48.0,
+    "IOT": 60.0,
+    "JAVA": 77.0,
+    "VBNET": 60.0,
+    "WEB_DES_2": 70.0,
+    "PRACT": 145.0
+  },
+  "EXAM_TOTAL": 460.0,
+  "RESULT": "PASS",
+  "SGPA": 6.96,
+  "YGPA": 6.74,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0e106c4e692412b73ff6"
+  },
+  "SPID": 2.0200250001E+10,
+  "GENDER": "M",
+  "STUDENT_NAME": "BINDRA SUNILKUMAR RAMBALI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 63.0,
+    "IOT": 59.0,
+    "JAVA": 67.0,
+    "VBNET": 63.0,
+    "WEB_DES_2": 78.0,
+    "PRACT": 145.0
+  },
+  "EXAM_TOTAL": 475.0,
+  "RESULT": "PASS",
+  "SGPA": 7.48,
+  "YGPA": 6.8,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0e896c4e692412b73ff7"
+  },
+  "SPID": 2.0200250003E+10,
+  "GENDER": "M",
+  "STUDENT_NAME": "YADAV JATINKUMAR CHANDRASHEKHAR",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 55.0,
+    "IOT": 64.0,
+    "JAVA": 77.0,
+    "VBNET": 52.0,
+    "WEB_DES_2": 73.0,
+    "PRACT": 175.0
+  },
+  "EXAM_TOTAL": 496.0,
+  "RESULT": "PASS",
+  "SGPA": 7.3,
+  "YGPA": 6.67,
+  "CLASS": "FIRST"
+},
+{
+  "_id": {
+    "$oid": "62cd0f0c6c4e692412b73ff8"
+  },
+  "SPID": 2.021000029E+09,
+  "GENDER": "M",
+  "STUDENT_NAME": "GAJERA NAYAN BABUBHAI",
+  "ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SYLLABUS_ACADEMIC_BATCH": "B.C.A 2020-23",
+  "SUBJECTS_MARKS": {
+    "INFO_SYS": 61.0,
+    "IOT": 83.0,
+    "JAVA": 62.0,
+    "VBNET": 66.0,
+    "WEB_DES_2": 88.0,
+    "PRACT": 187.0
+  },
+  "EXAM_TOTAL": 547.0,
+  "RESULT": "PASS",
+  "SGPA": 7.74,
+  "YGPA": 7.54,
+  "CLASS": "FIRST DIST"
 }
 ]
