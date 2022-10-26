@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Manu } from "./ManuFooter";
 import "./CSS/home.css";
 
 export default function HomePage() {
+
   return (
     <>
       <Manu Home="True" />
@@ -10,7 +11,6 @@ export default function HomePage() {
         <div className="containt">
           <div className="web_detail text-center">
             <h1>
-              
               Hello Welcome To My Website. This Web-site in You Can easy to See
               Program & Source Code.
             </h1>
@@ -29,7 +29,7 @@ export default function HomePage() {
             </h2>
 
             <h3 className="textColor">
-               <i className="bi bi-forward"></i> Project
+              <i className="bi bi-forward"></i> Project
             </h3>
             <h2>
               {" "}
