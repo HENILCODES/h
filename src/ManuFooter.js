@@ -49,7 +49,7 @@ function Manu(props) {
           <div className="manu_link">
             <Link to={links.Navbar.Html} id={props.Html ? "act" : "dct"}>
               {" "}
-              <i className="bi bi-forward"></i> html
+              <i className="bi bi-forward"></i> Code
             </Link>
           </div>
           <div className="manu_link">

@@ -1,6 +1,6 @@
 const links = {
   Navbar: {
-    Home: "/h",
+    Home: "/",
     Html: "/Html/",
     Project: "/Project/",
     About: "/About/",

@@ -115,6 +115,7 @@ export default function HtmlPage() {
           {ProgramBlock("7", " Simple Manu Bar. ")}
           {ProgramBlock("8", " Auto Type word effect. ")}
           {ProgramBlock("9", " Log in Page With CSS. ")}
+          {ProgramBlock("10", "Calculater. ")}
         </div>
       </div>
     </>
